@@ -6,9 +6,9 @@ Source Han Code JP is based on the Japanese subset of Source Han Sans, Source Ha
 
 * Screenshots for Source Han Code JP
 
-![alt text](https://https://github.com/adobe-fonts/source-han-code-jp/blob/master/resources/img-View.png "img-View")
+![alt text](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/img-View.png "img-View")
 
-![alt text](https://https://github.com/adobe-fonts/source-han-code-jp/blob/master/resources/img-AA.png "img-AA")
+![alt text](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/img-AA.png "img-AA")
 
 ## Download the fonts
 
@@ -19,11 +19,11 @@ Source Han Code JP is based on the Japanese subset of Source Han Sans, Source Ha
 
 Proportional Latin glyphs that were replaced with fixed-width 667-unit versions:
 
-* [SHC_LatinGlyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC_LatinGlyphs.pdf)
+* [SHC_LatinGlyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC_LatinGlyphs.pdf)
 
 Glyphs that were removed (the original Source Code Pro does not yet include glyphs for Cyrillic and Greek, along with those for some symbols): 
 
-* [RemovedGlyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/RemovedGlyphs.pdf)
+* [RemovedGlyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/RemovedGlyphs.pdf)
 
 Source Han Code JP does not include any GPOS features.
 
@@ -67,11 +67,11 @@ OTC(.ttc)は、MacOSX 10.8以降で利用できます。MacOSX10.7以前、Windo
 
 プロポーションナル・ラテンから667ユニット固定幅に変更されたラテン・グリフ。
 
-* [SHC_LatinGlyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC_LatinGlyphs.pdf)
+* [SHC_LatinGlyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC_LatinGlyphs.pdf)
 
 削除されたグリフ。（オリジナルのSource Code Proがサポートしていない Cyrillic、Greek、一部の記号類）
 
-* [RemovedGlyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/RemovedGlyphs.pdf)
+* [RemovedGlyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/RemovedGlyphs.pdf)
 
 Source Han CodeにはGPOS featuresは含まれていません。
 
