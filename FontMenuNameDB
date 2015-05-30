@@ -1,0 +1,62 @@
+# [PostScriptName]
+# 	f=FamilyName
+# 	s=StyleName
+# 	l=Windows_Compatible_MenuName
+# 	m=1,Macintosh_Compatible_MenuName
+
+[SourceHanCodeJP-ExtraLight]
+	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
+	s=3,1,0x411,ExtraLight
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP ExtraLight
+	f=Source Han Code JP
+	s=ExtraLight
+	l=Source Han Code JP ExtraLight
+
+[SourceHanCodeJP-Light]
+	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
+	s=3,1,0x411,Light
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP Light
+	f=Source Han Code JP
+	s=Light
+	l=Source Han Code JP Light
+
+[SourceHanCodeJP-Normal]
+	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
+	s=3,1,0x411,Normal
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP Normal
+	f=Source Han Code JP
+	s=Normal
+	l=Source Han Code JP Normal
+
+[SourceHanCodeJP-Regular]
+	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
+	s=3,1,0x411,Regular
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP Regular
+	f=Source Han Code JP
+	s=Regular
+	l=Source Han Code JP Regular
+	
+[SourceHanCodeJP-Medium]
+	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
+	s=3,1,0x411,Medium
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP Medium
+	f=Source Han Code JP
+	s=Medium
+	l=Source Han Code JP Medium
+
+[SourceHanCodeJP-Bold]
+	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
+	s=3,1,0x411,Bold
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP Bold
+	f=Source Han Code JP
+	s=Bold
+	l=Source Han Code JP Bold
+
+[SourceHanCodeJP-Heavy]
+	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
+	s=3,1,0x411,Heavy
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP Heavy
+	f=Source Han Code JP
+	s=Heavy
+	l=Source Han Code JP Heavy
+	

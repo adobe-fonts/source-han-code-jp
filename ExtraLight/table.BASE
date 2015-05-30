@@ -1,0 +1,17 @@
+table BASE {
+  HorizAxis.BaseTagList                 icfb  icft  ideo  romn;
+  HorizAxis.BaseScriptList  DFLT  ideo   -66  826   -120  0,
+                            hani  ideo   -66  826   -120  0,
+                            kana  ideo   -66  826   -120  0,
+                            latn  romn   -66  826   -120  0,
+                            cyrl  romn   -66  826   -120  0,
+                            grek  romn   -66  826   -120  0;
+
+  VertAxis.BaseTagList                  icfb  icft  ideo  romn;
+  VertAxis.BaseScriptList   DFLT  ideo  54    946   0     120,
+                            hani  ideo  54    946   0     120,
+                            kana  ideo  54    946   0     120,
+                            latn  romn  54    946   0     120,
+                            cyrl  romn  54    946   0     120,
+                            grek  romn  54    946   0     120;
+} BASE;
