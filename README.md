@@ -1,6 +1,6 @@
 # Source Han Code JP
 
-Source Han Code JP is a derivative of Source Han Sans that replaces its proportional Latin glyphs with fixed-width 667-unit glyphs from Source Code Pro. The Latin glyphs are scaled to match the glyphs for Japanese kana and kanji, and their widths are adjusted to be exactly 667 units (two-thirds of an EM). Source Han Code JP is intended to be used as a UI font for mixed Latin and Japanese text on displays, for programming, editing HTML/CSS, viewing text or input command line in a terminal app, and so on.
+Source Han Code JP is a derivative of Source Han Sans that replaces its proportional Latin glyphs with fixed-width 667-unit glyphs from Source Code Pro. The Latin glyphs are scaled to match the glyphs for Japanese kana and kanji, and their widths are adjusted to be exactly 667 units (two-thirds of an EM). Source Han Code JP is intended to be used as a UI font for mixed Latin and Japanese text on displays, for programming, editing HTML/CSS, viewing text or inputing to the command line in a terminal app, and so on.
 
 Source Han Code JP is based on the Japanese subset of Source Han Sans, Source Han Sans JP, whose glyph set supports only Japanese.
 
@@ -34,7 +34,7 @@ To build the binary font files from source, you need to have installed the [Adob
 
 ### Building all fonts
 
-For convenience, a shell script named `commands.sh` is provided in the root directory. It builds all OTFs and the OTC, and can be executed by typing the following command line:
+For convenience, a shell script named `commands.sh` is provided in the root directory. It builds all OTFs and the OTC, and can be executed by entering the following command :
 
 ```sh
 $ ./commands.sh
@@ -52,7 +52,7 @@ Send suggestions for changes to the Source Han Code project maintainer, [Masatak
 ========================================
 # Source Han Code JP
 
-Source Han Code JP（日本語メニューネーム：源ノ角ゴシック Code）は、Source Han Sansが持っているプロポーションナル・ラテン・グリフを、667ユニット固定幅のSource Code Proのラテン・グリフを採用した派生フォントです。ラテン・グリフは、日本語の仮名や漢字とマッチするように調整され、正確に667ユニット固定幅に設定されています。Source Han Codeは、プログラミングやhtml/CSSの記述、ターミナルでのテキスト表示やコマンド入力などで、ディスプレイでの和欧表示用UIフォントとしての利用を想定しいます。
+Source Han Code JP（日本語メニューネーム：源ノ角ゴシック Code）は、Source Han Sansに含まれるプロポーションナル・ラテン・グリフを、Source Code Proのモノスペースのラテン・グリフに変更した派生フォントです。ラテン・グリフは、日本語の仮名や漢字とマッチするようにサイズを調整し、正確に667ユニット固定字幅に設定されています。Source Han Codeは、プログラミングやhtml/CSSの記述、ターミナルでのテキスト表示やコマンド入力などで、ディスプレイでの和欧表示用UIフォントとしての利用を想定しいます。
 
 Source Han Codeは、日本語グリフのみサポートしたSource Han Sans JP subset fontをベースにしています。
 
@@ -61,11 +61,11 @@ Source Han Codeは、日本語グリフのみサポートしたSource Han Sans J
 * [Latest release](../../releases/latest)
 * [All releases](../../releases)
 
-OTC(.ttc)は、MacOSX 10.8以降で利用できます。MacOSX10.7以前、Windows、および、その他のOSでは、OTF(.otf)をご利用ください。
+OTC (.ttc)は、MacOSX 10.8以降で利用できます。MacOSX10.7以前、Windows、および、その他のOSでは、OTF (.otf)をご利用ください。
 
 ## Source Han Sans JPからの変更点
 
-プロポーションナル・ラテンから667ユニット固定幅に変更されたラテン・グリフ。
+プロポーションナルから667ユニット固定字幅に変更されたラテン・グリフ。
 
 * [SHC_LatinGlyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC_LatinGlyphs.pdf)
 
