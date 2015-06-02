@@ -34,7 +34,7 @@ To build the binary font files from source, you need to have installed the [Adob
 
 ### Building all fonts
 
-For convenience, a shell script named `commands.sh` is provided in the root directory. It builds all OTFs and the OTC, and can be executed by entering the following command :
+For convenience, a shell script named `commands.sh` is provided in the root directory. It builds all OTF and the OTC fonts, and can be executed by entering the following command :
 
 ```sh
 $ ./commands.sh
@@ -61,7 +61,7 @@ Source Han Codeは、日本語グリフのみサポートしたSource Han Sans J
 * [Latest release](../../releases/latest)
 * [All releases](../../releases)
 
-OTC (.ttc)は、MacOSX 10.8以降で利用できます。MacOSX10.7以前、Windows、および、その他のOSでは、OTF (.otf)をご利用ください。
+OTC（.ttc）は、MacOSX 10.8以降で利用できます。MacOSX10.7以前、Windows、および、その他のOSでは、OTF（.otf）をご利用ください。
 
 ## Source Han Sans JPからの変更点
 
@@ -78,11 +78,11 @@ Source Han CodeにはGPOS featuresは含まれていません。
 ## Build the fonts
 ### Requirements
 
-バイナリ形式のフォントを生成するためには、[Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO)のインストールが必要条件になります。AFDKOツールズは、フォント開発や、フォント制作ソフトの一部として幅広く使用されています。
+バイナリ形式のフォントを生成するためには、[Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html)（AFDKO）のインストールが必要条件になります。AFDKOツールズは、フォント開発や、フォント制作ソフトの一部として幅広く使用されています。
 
 ### Building all fonts
 
-ルートディレクトリにおかれた`commands.sh`というシェル・スクリプトを実行することで、すべてのOTFsとOTCのフォントが生成されます。ターミナルから下記のコマンドを実行してください。
+ルートディレクトリにおかれた`commands.sh`というシェル・スクリプトを実行することで、すべてのOTFとOTCのフォントが生成されます。ターミナルから下記のコマンドを実行してください。
 
 ```sh
 $ ./commands.sh
