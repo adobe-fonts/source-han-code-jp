@@ -65,7 +65,7 @@ OTC（.ttc）は、MacOSX 10.8以降で利用できます。MacOSX10.7以前、W
 
 ## Source Han Sans JPからの変更点
 
-プロポーションナルから667ユニット固定字幅に変更されたラテン・グリフ。
+プロポーショナルから667ユニット固定字幅に変更されたラテン・グリフ。
 
 * [SHC_LatinGlyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC_LatinGlyphs.pdf)
 
