@@ -6,57 +6,57 @@
 
 [SourceHanCodeJP-ExtraLight]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
-	s=3,1,0x411,ExtraLight
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP ExtraLight
+	s=3,1,0x411,EL
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP EL
 	f=Source Han Code JP
-	s=ExtraLight
-	l=Source Han Code JP ExtraLight
+	s=EL
+	l=Source Han Code JP EL
 
 [SourceHanCodeJP-Light]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
-	s=3,1,0x411,Light
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP Light
+	s=3,1,0x411,L
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP L
 	f=Source Han Code JP
-	s=Light
-	l=Source Han Code JP Light
+	s=L
+	l=Source Han Code JP L
 
 [SourceHanCodeJP-Normal]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
-	s=3,1,0x411,Normal
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP Normal
+	s=3,1,0x411,N
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP N
 	f=Source Han Code JP
-	s=Normal
-	l=Source Han Code JP Normal
+	s=N
+	l=Source Han Code JP N
 
 [SourceHanCodeJP-Regular]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
-	s=3,1,0x411,Regular
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP Regular
+	s=3,1,0x411,R
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP R
 	f=Source Han Code JP
-	s=Regular
-	l=Source Han Code JP Regular
+	s=R
+	l=Source Han Code JP R
 	
 [SourceHanCodeJP-Medium]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
-	s=3,1,0x411,Medium
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP Medium
+	s=3,1,0x411,M
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP M
 	f=Source Han Code JP
-	s=Medium
-	l=Source Han Code JP Medium
+	s=M
+	l=Source Han Code JP M
 
 [SourceHanCodeJP-Bold]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
-	s=3,1,0x411,Bold
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP Bold
+	s=3,1,0x411,B
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP B
 	f=Source Han Code JP
-	s=Bold
-	l=Source Han Code JP Bold
+	s=B
+	l=Source Han Code JP B
 
 [SourceHanCodeJP-Heavy]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
-	s=3,1,0x411,Heavy
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP Heavy
+	s=3,1,0x411,H
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP H
 	f=Source Han Code JP
-	s=Heavy
-	l=Source Han Code JP Heavy
+	s=H
+	l=Source Han Code JP H
 	

@@ -1,5 +1,6 @@
 languagesystem DFLT dflt;
 languagesystem hani dflt;
+languagesystem hani JAN;
 languagesystem kana dflt;
 languagesystem kana JAN;
 languagesystem latn dflt;

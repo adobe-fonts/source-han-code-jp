@@ -1,0 +1,49 @@
+
+version 1.004 created 2014/06/19
+
+	remove "liga" feature and move "fi" and "fl" ligtures to "dlig" feature.
+	
+	remove these substitutions from "locl" feature.
+		substitute \63041 by \63137;
+		substitute \63046 by \63138;
+	
+	rebuild cidfont.ps files with Source Han Sans version 1.004 source data.
+	
+	 change Japanese font menu name by abbreviating the weight names, because some applications do not support menu names longer than 31 bytes.
+		源ノ角ゴシック Code JP EL
+		源ノ角ゴシック Code JP L
+		源ノ角ゴシック Code JP N
+		源ノ角ゴシック Code JP R
+		源ノ角ゴシック Code JP M
+		源ノ角ゴシック Code JP B
+		源ノ角ゴシック Code JP H
+		
+version 1.002 created 2015/06/02
+
+	First release.
+
+*** Japanese ***
+
+version 1.004 created 2014/06/20
+
+	デフォルトで"fi"と"fl"の合字にならないようにしました。
+	
+	"locl"フィーチャーから下記の切り換えを削除しました。
+		substitute \63041 by \63137;
+		substitute \63046 by \63138;
+	
+	最新のSource Han Sans version 1.004ソースでフォントをビルドしました。
+	
+	31バイトよりも長いフォントメニュー名をサポートしないアプリに対応するため、フォントメニューのウエイト名を短縮形にしました。 
+		源ノ角ゴシック Code JP EL
+		源ノ角ゴシック Code JP L
+		源ノ角ゴシック Code JP N
+		源ノ角ゴシック Code JP R
+		源ノ角ゴシック Code JP M
+		源ノ角ゴシック Code JP B
+		源ノ角ゴシック Code JP H
+		
+version 1.002 created 2015/06/02
+
+	First release.
+
