@@ -12,9 +12,9 @@ Source Han Code JP is based on the Japanese subset of Source Han Sans, Source Ha
 
 * Version 2.0 supports Greek, Cyrillic, Roman Italic and a few emoji glyphs. Now Source Han Code JP is Non-Iatlic and Italic 14 fonts family. These emojis have been given color versions that will appear in apps or browsers that support OpenType SVG table. 
 
-![alt text](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/newglyphs.png "new_glyphs")
+![alt text](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/newglyphs.png "new_glyphs")
 
-![alt text](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/color_emoji.png "color_emoji")
+![alt text](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/color_emoji.png "color_emoji")
 
 
 ## Download the fonts
@@ -26,15 +26,15 @@ Source Han Code JP is based on the Japanese subset of Source Han Sans, Source Ha
 
 Proportional Latin glyphs that were replaced with fixed-width 667-unit versions:
 
-* [SHC2_Roman_Glyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Roman.pdf)
+* [SHC2_Roman_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Roman.pdf)
 
 Italic glyphs that were added to version 2.0 :
 
-* [SHC2_Italic_Glyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Italic.pdf)
+* [SHC2_Italic_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Italic.pdf)
 
 Full-width emoji glyphs that were added to version 2.0 :
 
-* [SHC2_Emoji_Glyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Emoji.pdf)
+* [SHC2_Emoji_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Emoji.pdf)
 
 Proportional glyphs that are removed from the original Source Han Sans JP :
 
@@ -100,15 +100,15 @@ OTC（.ttc）は、MacOSX 10.8以降で利用できます。MacOSX10.7以前、W
 
 プロポーショナルから667ユニット固定字幅に変更されたラテン・グリフ。
 
-* [SHC2_Roman_Glyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Roman.pdf)
+* [SHC2_Roman_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Roman.pdf)
 
 Version 2.0から追加されたイタリックグリフ。
 
-* [SHC2_Italic_Glyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Italic.pdf)
+* [SHC2_Italic_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Italic.pdf)
 
 Version 2.0から追加された全角絵文字グリフ。
 
-* [SHC2_Emoji_Glyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Emoji.pdf)
+* [SHC2_Emoji_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Emoji.pdf)
 
 オリジナルのSource Han Sans JPから削除されたプロポーショナルグリフ。
 
