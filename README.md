@@ -10,6 +10,13 @@ Source Han Code JP is based on the Japanese subset of Source Han Sans, Source Ha
 
 ![alt text](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/img-AA.png "img-AA")
 
+* Version 2.0 supports Greek, Cyrillic, Roman Italic and a few emoji glyphs. Now Source Han Code JP is Non-Iatlic and Italic 14 fonts family. These emojis have been given color versions that will appear in apps or browsers that support OpenType SVG table. 
+
+![alt text](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/newglyphs.png "new_glyphs")
+
+![alt text](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/color_emoji.png "color_emoji")
+
+
 ## Download the fonts
 
 * [Latest release](../../releases/latest)
@@ -19,13 +26,21 @@ Source Han Code JP is based on the Japanese subset of Source Han Sans, Source Ha
 
 Proportional Latin glyphs that were replaced with fixed-width 667-unit versions:
 
-* [SHC_LatinGlyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC_LatinGlyphs.pdf)
+* [SHC2_Roman_Glyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Roman.pdf)
 
-Glyphs that were removed (the original Source Code Pro does not yet include glyphs for Cyrillic and Greek, along with those for some symbols): 
+Italic glyphs that were added to version 2.0 :
 
-* [RemovedGlyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/RemovedGlyphs.pdf)
+* [SHC2_Italic_Glyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Italic.pdf)
 
-Source Han Code JP does not include any GPOS features.
+Full-width emoji glyphs that were added to version 2.0 :
+
+* [SHC2_Emoji_Glyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Emoji.pdf)
+
+Proportional glyphs that are removed from the original Source Han Sans JP :
+
+* [Removed_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/RemovedGlyphs.pdf)
+
+Source Han Code JP does not support any GPOS features.
 
 ## Building the fonts
 ### Requirements
@@ -34,27 +49,45 @@ To build the binary font files from source, you need to have installed the [Adob
 
 ### Building all fonts
 
-For convenience, a shell script named `commands.sh` is provided in the root directory. It builds all OTF and the OTC fonts, and can be executed by entering the following command :
+For convenience, a shell script named `commands.sh` is provided in the root directory. To run `addSVGtable.py` which allows to add SVG files into a font will require fonttools version 2.5 and later :
 
 ```sh
 $ ./commands.sh
 ```
+
+You can use `commands_superotc.sh` to make a super otc that will be bound all of fonts in one single file :
+
+```sh
+$ ./commands_superotc.sh
+```
+## Installation notes
+After installing in OS X, if you cannot find the fonts in the font menu of an app, or if the fonts cannot be selected in an app, please try the following steps to reset the font cache:
+
+1. Copy fonts (OTFs or OTC) to the /Library/Fonts/ or ~/Library/Fonts/ directory.
+2. Run the following command line in the Terminal app:  
+```$ sudo atsutil databases -remove```
+3. Logout from or restart OS X.
 
 ## The original open source fonts from which Source Han Code JP was derived
 
 * [Source Han Sans](https://github.com/adobe-fonts/source-han-sans)
 * [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 
+* [Updates to Source Code Pro](http://blog.typekit.com/2015/07/17/source-code-pro-italic-greek-cyrillic/)
+
 ## Getting Involved
 
 Send suggestions for changes to the Source Han Code project maintainer, [Masataka Hattori](mailto:mhattori@adobe.com), for consideration.
 
 ========================================
+
 # Source Han Code JP
 
 Source Han Code JP（日本語メニューネーム：源ノ角ゴシック Code）は、Source Han Sansに含まれるプロポーショナル・ラテン・グリフを、Source Code Proのモノスペースのラテン・グリフに変更した派生フォントです。ラテン・グリフは、日本語の仮名や漢字とマッチするようにサイズを調整し、正確に667ユニット固定字幅に設定されています。Source Han Codeは、プログラミングやhtml/CSSの記述、ターミナルでのテキスト表示やコマンド入力などで、ディスプレイでの和欧表示用UIフォントとしての利用を想定しています。
 
-Source Han Codeは、日本語グリフのみサポートしたSource Han Sans JP subset fontをベースにしています。
+Version2.0から、ギリシャ文字、キリル文字、欧文イタリック体、そして７つの絵文字グリフをサポートしました。標準の欧文をイタリックで表示するフォントの追加し１４フォントのファミリーとなりました。絵文字は、オープンタイプのSVGテーブルをサポートするアプリやブラウザで使用するとカラー絵文字として表示されます。
+
+Source Han Code JPは、日本語グリフのみサポートしたSource Han Sans JP subset fontをベースにしています。
 
 ## Download the fonts
 
@@ -67,11 +100,19 @@ OTC（.ttc）は、MacOSX 10.8以降で利用できます。MacOSX10.7以前、W
 
 プロポーショナルから667ユニット固定字幅に変更されたラテン・グリフ。
 
-* [SHC_LatinGlyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC_LatinGlyphs.pdf)
+* [SHC2_Roman_Glyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Roman.pdf)
 
-削除されたグリフ。（オリジナルのSource Code Proがサポートしていない Cyrillic、Greek、一部の記号類）
+Version 2.0から追加されたイタリックグリフ。
 
-* [RemovedGlyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/RemovedGlyphs.pdf)
+* [SHC2_Italic_Glyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Italic.pdf)
+
+Version 2.0から追加された全角絵文字グリフ。
+
+* [SHC2_Emoji_Glyphs](https://https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Emoji.pdf)
+
+オリジナルのSource Han Sans JPから削除されたプロポーショナルグリフ。
+
+* [Removed_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/RemovedGlyphs.pdf)
 
 Source Han CodeにはGPOS featuresは含まれていません。
 
@@ -82,16 +123,32 @@ Source Han CodeにはGPOS featuresは含まれていません。
 
 ### Building all fonts
 
-ルートディレクトリにおかれた`commands.sh`というシェル・スクリプトを実行することで、すべてのOTFとOTCのフォントが生成されます。ターミナルから下記のコマンドを実行してください。
+ルートディレクトリにおかれた`commands.sh`というシェル・スクリプトを実行することで、すべてのOTFとOTCのフォントが生成されます。ターミナルから下記のコマンドを実行してください。また、SVGファイルを埋め込むためのスクリプト`addSVGtable.py`を実行するには、version 2.5以上のfonttoolsのインストールが必要です。
 
 ```sh
 $ ./commands.sh
 ```
 
+すべてのOTFフォントを一つのファイルにまとめたスーパーOTCを作成する場合は、`commands_superotc.sh`を参考にしてください。
+
+```sh
+$ ./commands_superotc.sh
+```
+## インストールについて
+MacOSXでフォントをインストールしても、フォントメニューで探せなかったり、アプリでフォントが使用できないときは、下記にのステップを試してみてください。  
+   
+1. フォント（ otfs あるいは otc ）を/library/fontsあるいは~/library/fontsにコピーする。
+2. ターミナルで下記のコマンドを実行する。  
+```  $ sudo atsutil databases -remove  ```
+3. マシンをリスタートする。
+
+
 ## オリジナルのオープンソースフォント
 * [Source Han Sans](https://github.com/adobe-fonts/source-han-sans)
 * [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 
-## Getting Involved
+* [Updates to Source Code Pro](http://blog.typekit.com/2015/07/17/source-code-pro-italic-greek-cyrillic/)
 
-提案・要望などありましたら、[Masataka Hattori](mailto:mhattori@adobe.com)までご連絡ください。
+## 連絡先
+
+ご提案・ご要望などありましたら、[Masataka Hattori](mailto:mhattori@adobe.com)までご連絡ください。

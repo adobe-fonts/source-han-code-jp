@@ -1,9 +1,58 @@
 
-version 1.004 created 2014/06/19
+*** English ***
 
-	remove "liga" feature and move "fi" and "fl" ligtures to "dlig" feature.
+* version 2.000 2015/11/18
+
+		Source Han Code JP version 2.0 has a special CID layout to support italic and emoji glyphs that are included in Source Code Pro v2.0. This means that Source Han Code JP is no longer CID-compatible with Source Han Sans, and requires the following original resources for building the fonts:
 	
-	remove these substitutions from "locl" feature.
+	UniSourceHanCodeJP-UTF32-H
+	UniSourceHanCodeJPIt-UTF32-H
+	SourceHanCode_JP_sequences.txt
+	SourceHanCode_JP_features.gsub
+	SourceHanCode_JP_It_features.gsub
+	
+	Support Greek and Cyrillic glyphs
+	
+	Support Latin Italic
+		Below are the Japanese menu names for the italic fonts:
+
+		源ノ角ゴシック Code JP EL It
+		源ノ角ゴシック Code JP L It
+		源ノ角ゴシック Code JP N It
+		源ノ角ゴシック Code JP R It
+		源ノ角ゴシック Code JP M It
+		源ノ角ゴシック Code JP B It 
+		源ノ角ゴシック Code JP H It	
+	
+	Add 'ital' GSUB feature to standard fonts 
+		Italic substitution will be enabled in apps that support the 'ital' GSUB feature.
+	
+	Add 7 glyphs for emoji
+               These glyphs are given 1000-unit widths in Source Han Code JP:
+	
+		coffee: uni2615
+		smileface: uni263A
+		invsmileface: uni263B
+		heartblackheavy: uni2764
+		poopile: u1F4A9
+		lock: u1F512
+		robotface: u1F916
+	
+	Add 'SVG ' table for colored emoji
+		Colored emoji display in apps that support the 'SVG ' table, such as Firefox.
+	
+	Build a single Super OTC that contains all fourteen fonts
+			
+	Remove 'fwid', 'hwid', and 'pwid' GSUB features
+		These features were inherited from Source Han Sans. I decided to remove them from Source Han Code JP v2.0. 
+		Especially, the 'fwid' GSUB feature caused a full-width Latin problem in the Xcode app.
+		
+
+* version 1.004 created 2015/06/19
+
+	remove 'liga' feature and move 'fi' and 'fl' ligtures to 'dlig' feature.
+	
+	remove these substitutions from 'locl' feature.
 		substitute \63041 by \63137;
 		substitute \63046 by \63138;
 	
@@ -18,17 +67,64 @@ version 1.004 created 2014/06/19
 		源ノ角ゴシック Code JP B
 		源ノ角ゴシック Code JP H
 		
-version 1.002 created 2015/06/02
+* version 1.002 created 2015/06/02
 
 	First release.
 
 *** Japanese ***
 
-version 1.004 created 2014/06/20
+* version 2.000 created 2015/11/18
 
-	デフォルトで"fi"と"fl"の合字にならないようにしました。
+	Source Han Code JP version 2.0 では、Source Code Pro 2.0 のアップデートにより拡張されたイタリック体や絵文字を追加するため、独自のCID番号を割り振りました。これによりSource Han SansフォントとはCIDレベルでの互換性はなくなり、フォント生成に必要なSource Han Code JP専用のリソースファイルを追加しました。
 	
-	"locl"フィーチャーから下記の切り換えを削除しました。
+	UniSourceHanCodeJP-UTF32-H
+	UniSourceHanCodeJPIt-UTF32-H
+	SourceHanCode_JP_sequences.txt
+	SourceHanCode_JP_features.gsub
+	SourceHanCode_JP_It_features.gsub
+	
+	ギリシャ文字、キリル文字のサポート
+	
+	欧文のみイタリック体を採用したフォントの追加
+		イタリック体のフォントメニュー名は下記の通りです。
+		
+		源ノ角ゴシック Code JP EL It
+		源ノ角ゴシック Code JP L It
+		源ノ角ゴシック Code JP N It
+		源ノ角ゴシック Code JP R It
+		源ノ角ゴシック Code JP M It
+		源ノ角ゴシック Code JP B It 
+		源ノ角ゴシック Code JP H It	
+	
+	標準体フォントに'ital'フィーチャーの追加
+		'ital'フィーチャーをサポートしたアプリケーションでは、欧文をイタリック体に切り替えることができます。
+		
+	7つの絵文字グリフを追加
+	       これらのグリフは、1000ユニット（全角幅）で設定されています。 
+
+		coffee : uni2615
+		smileface : uni263a
+		invsmileface : uni263b
+		heartblackheavy : uni2764
+		poopile : u1F4A9
+		lock : u1F512
+		robotface : u1F916
+
+	'SVG　'テーブルの追加により、絵文字のカラー表示に対応
+		'SVG　'テーブルをサポートしたアプリケーションやブラウザ（FireFoxでは確認ずみ）で、絵文字をカラー化して表示することができます。
+		
+	標準体とイタリック体を含む14書体をスーパーOTCを作成
+	
+	'fwid','hwid', 'pwid' フィーチャーの削除
+		Source Han Sansから引き継ぎで実装していたが、このフォントの特徴上、あまり重要ではないと判断。
+		とくに'fwid'フィーチャーは、XCodeで使用すると欧文が全角に切り替わってしまう問題を発生させる。	
+		
+	
+* version 1.004 created 2015/06/20
+
+	デフォルトで'fi'と'fl'の合字にならないようにしました。
+	
+	'locl'フィーチャーから下記の切り換えを削除しました。
 		substitute \63041 by \63137;
 		substitute \63046 by \63138;
 	
@@ -43,7 +139,6 @@ version 1.004 created 2014/06/20
 		源ノ角ゴシック Code JP B
 		源ノ角ゴシック Code JP H
 		
-version 1.002 created 2015/06/02
+* version 1.002 created 2015/06/02
 
 	First release.
-

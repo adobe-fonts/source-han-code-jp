@@ -2,14 +2,11 @@ FontName       (SourceHanCodeJP-Normal)
 FullName       (SourceHanCodeJP Normal)
 FamilyName     (SourceHanCodeJP)
 Weight         (Normal)
-version        (1.004)
+version        (2.000)
 Registry       (Adobe)
 Ordering       (Identity)
-Supplement     (0)
-XUID           [1 11 9274443]
-Layout			(AI0-SourceHanSans)
-Subset			(AI0-SourceHanSans.JP)
-AdobeCopyright (Copyright 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.)
+Supplement     0
+AdobeCopyright (Copyright 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.)
 Trademark      (Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.)
 FSType         0
 isFixedPitch               false
