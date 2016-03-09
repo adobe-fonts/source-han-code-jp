@@ -38,7 +38,7 @@ Full-width emoji glyphs that were added to version 2.0 :
 
 Proportional glyphs that are removed from the original Source Han Sans JP :
 
-* [Removed_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/RemovedGlyphs.pdf)
+* [Removed_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/removedGlyphs_fromSHS.pdf)
 
 Source Han Code JP does not support any GPOS features.
 
@@ -112,7 +112,7 @@ Version 2.0から追加された全角絵文字グリフ。
 
 オリジナルのSource Han Sans JPから削除されたプロポーショナルグリフ。
 
-* [Removed_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/RemovedGlyphs.pdf)
+* [Removed_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/removedGlyphs_fromSHS.pdf)
 
 Source Han CodeにはGPOS featuresは含まれていません。
 
