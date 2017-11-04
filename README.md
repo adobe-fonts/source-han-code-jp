@@ -1,3 +1,17 @@
+## 11-4-2017 Note
+
+* Can't save Source Han Code JP on Adobe Illustrator CC 2018
+
+We are aware that Adobe Illustrator CC 2018 fails to save a document that uses Source Han Code JP that results in an "An unknown error has occurred." dialog appearing. This issue has been reported to the Illustrator team. This issue seems to affect CID-keyed OpenType/CFF fonts that include an 'SVG ' table, such as Source Han Code JP. An interim solution is to simply uncheck the "Create PDF Compatible File" option in the Save dialog's options. InDesign CC 2018 has a similar issue in its PDF export option, and unfortunately, we are not aware of a similar work-around.
+
+Please visit [OpenType SVG Fonts in Creative Cloud Apps](https://blogs.adobe.com/CCJKType/2017/11/opentype-svg-fonts-illustratorindesignphotoshop-cc-2018.html) more details.
+
+* 「源ノ角ゴシック Code JP」がイラストレーターで保存できない
+
+アドビ イラストレーターCC2018で「源ノ角ゴシック Code JP」を使ったドキュメントが「不明なエラーが発生しました。」というダイアログとともに保存できないという現象が発生しています。この問題はイラストレーターチームに報告済みですが、カラーグリフをサポートしたSVGテーブルを持つ日本語フォントで問題が発生するという以外に詳しいことは不明です。当面の回避策として、保存時にIllustratorオプションで「PDF互換ファイルを作成」をオフにすることで保存が可能になります。インデザインCC2018に関してもPDF書き出しで同様の問題が起こります、インデザインに関しては回避策が見つかっていません。
+
+この件に関しては、[OpenType SVG Fonts in Creative Cloud Apps](https://blogs.adobe.com/CCJKType/2017/11/opentype-svg-fonts-illustratorindesignphotoshop-cc-2018.html) (英語）を参照してください。
+
 # Source Han Code JP
 
 Source Han Code JP is a derivative of Source Han Sans that replaces its proportional Latin glyphs with fixed-width 667-unit glyphs from Source Code Pro. The Latin glyphs are scaled to match the glyphs for Japanese kana and kanji, and their widths are adjusted to be exactly 667 units (two-thirds of an EM). Source Han Code JP is intended to be used as a UI font for mixed Latin and Japanese text on displays, for programming, editing HTML/CSS, viewing text or inputing to the command line in a terminal app, and so on.
