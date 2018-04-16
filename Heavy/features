@@ -5,8 +5,8 @@ languagesystem latn dflt;
 languagesystem grek dflt;
 languagesystem cyrl dflt;
 
-include(../features.common)
-include(./table.vmtx)
+include(../features.common);
+include(./table.vmtx);
 
 table OS/2 {
   TypoAscender 880;
@@ -23,5 +23,5 @@ table OS/2 {
   winDescent 320;
 } OS/2;
 
-include(./table.BASE)
-include(../SourceHanCode_JP_features.gsub)
+include(./table.BASE);
+include(../SourceHanCode_JP_features.gsub);
