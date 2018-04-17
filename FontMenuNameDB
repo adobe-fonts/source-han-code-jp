@@ -47,10 +47,10 @@
 [SourceHanCodeJP-Bold]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
 	s=3,1,0x411,B
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP B
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP R
 	f=Source Han Code JP
 	s=B
-	l=Source Han Code JP B
+	l=Source Han Code JP R
 
 [SourceHanCodeJP-Heavy]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
@@ -65,56 +65,56 @@
 [SourceHanCodeJP-ExtraLightIt]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
 	s=3,1,0x411,EL It
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP EL It
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP EL
 	f=Source Han Code JP
 	s=EL It
-	l=Source Han Code JP EL It
+	l=Source Han Code JP EL
 
 [SourceHanCodeJP-LightIt]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
 	s=3,1,0x411,L It
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP L It
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP L
 	f=Source Han Code JP
 	s=L It
-	l=Source Han Code JP L It
+	l=Source Han Code JP L
 
 [SourceHanCodeJP-NormalIt]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
 	s=3,1,0x411,N It
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP N It
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP N
 	f=Source Han Code JP
 	s=N It
-	l=Source Han Code JP N It
+	l=Source Han Code JP N
 
 [SourceHanCodeJP-RegularIt]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
 	s=3,1,0x411,R It
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP R It
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP R
 	f=Source Han Code JP
 	s=R It
-	l=Source Han Code JP R It
+	l=Source Han Code JP R
 	
 [SourceHanCodeJP-MediumIt]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
 	s=3,1,0x411,M It
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP M It
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP M
 	f=Source Han Code JP
 	s=M It
-	l=Source Han Code JP M It
+	l=Source Han Code JP M
 
 [SourceHanCodeJP-BoldIt]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
 	s=3,1,0x411,B It
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP B It
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP R
 	f=Source Han Code JP
 	s=B It
-	l=Source Han Code JP B It
+	l=Source Han Code JP R
 
 [SourceHanCodeJP-HeavyIt]
 	f=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP
 	s=3,1,0x411,H It
-	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP H It
+	l=3,1,0x411,\6e90\30ce\89d2\30b4\30b7\30c3\30af Code JP H
 	f=Source Han Code JP
 	s=H It
-	l=Source Han Code JP H It
+	l=Source Han Code JP H
 	

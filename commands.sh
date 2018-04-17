@@ -21,27 +21,27 @@ do
 	echo
 	pwd
 	
-	if makeotf -f ${tfont} -mf ${fdb} -ff features -r -nS -cs 1 -ch $cmap -ci ${vs} -o ${nf} 2>&1 ; then :
+	if makeotf -f ${tfont} -mf ${fdb} -ff features -fi cidfontinfo -r -nS -cs 1 -ch $cmap -ci ${vs} -o ${nf} 2>&1 ; then :
 	else
 		echo Error
 		exit
 	fi
 		
 		
-	if makeotf -f ${itfont} -mf ${fdb} -ff features.it -r -nS -cs 1 -ch $itcmap -ci ${vs} -o ${inf} 2>&1 ; then :
+	if makeotf -f ${itfont} -mf ${fdb} -ff features.it -fi cidfontinfo.it -r -nS -cs 1 -ch $itcmap -ci ${vs} -o ${inf} 2>&1 ; then :
 	else
 		echo Error
 		exit
 	fi 
 	
 	
-	if python ../addSVGtable.py ${nf} $svg ; then :
+	if addSVGtable.py -s $svg ${nf} ; then :
 	else
 		echo Error
 		exit
 	fi
 		
-	if python ../addSVGtable.py ${inf} $svg ; then :
+	if addSVGtable.py -s $svg ${inf} ; then :
 	else
 		echo Error
 		exit

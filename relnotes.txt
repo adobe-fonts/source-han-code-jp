@@ -1,6 +1,22 @@
 
 *** English ***
 
+* version 2.010 2018/04/18
+
+	U+2423 '␣' OPEN BOX now has a monospaced horizontal advance of 667 units (the previous version used 1000 units). See [Issue #12](https://github.com/adobe-fonts/source-han-code-jp/issues/12).
+
+	Style-linking is now supported correctly, meaning that you can access 'Bold' and 'Italic' styles by pressing the 'B' or 'I' buttons in apps that support style linking.
+
+	Fixed the issue that the Source Han Code JP family was not grouped in the 'Fonts' folder of Windows 10.
+
+	Fixed the issue that the Source Han Code JP family was not grouped in the font menu of MS Office apps.
+
+	Improved the syntax of the SVG glyph data.
+
+	Added the 'ss01' and 'ss02' GSUB features for color to Black&White and Black&White to color glyph substitution, respectively.
+
+	Removed 'addSVGtable.py' from the repository as you can now get this Python script from the [opentype-svg](https://github.com/adobe-type-tools/opentype-svg) project.
+
 * version 2.000 2015/11/18
 
 		Source Han Code JP version 2.0 has a special CID layout to support italic and emoji glyphs that are included in Source Code Pro v2.0. This means that Source Han Code JP is no longer CID-compatible with Source Han Sans, and requires the following original resources for building the fonts:
@@ -72,6 +88,22 @@
 	First release.
 
 *** Japanese ***
+
+* version 2.010 2018/04/02
+
+	U+2423 OPEN BOX を、667unitsの文字幅にしました。
+
+	スタイルリンク機能を使えるようにしました、アプリのフォントメニューバーに'B' や 'L'ボタンがある場合、スタイルリンクで設置されたボールドやイタリックを利用可能。
+
+	Windows10の「フォント」フォルダーで、源ノ角ゴシックのファミリーが１つのグループに分類されない問題の修正。
+
+	MS Office アプリのフォントメニューで、源ノ角ゴシックのファミリーが１のグループに分類されない問題の修正。
+		
+	SVGカラーグリフの記述を更新。
+		
+	カラーから白黒グリフの変換するss01、白黒からカラーの変換するss02の切り替えフィーチャーの追加。
+	
+	リポジトリから'addSVGtable.py'を削除しました。必要な場合は、https://github.com/adobe-type-tools/opentype-svg.gitから入手できます。
 
 * version 2.000 created 2015/11/18
 

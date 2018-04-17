@@ -16,7 +16,7 @@ table OS/2 {
   CapHeight 729;
   WeightClass 400;
   WidthClass 5;
-  Panose 2 11 5 0 0 0 0 0 0 0;
+  Panose 2 11 5 9 3 4 3 2 2 7;
   FSType 0;
   Vendor "ADBO";
   winAscent 1133;

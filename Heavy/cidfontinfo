@@ -2,11 +2,11 @@ FontName       (SourceHanCodeJP-Heavy)
 FullName       (SourceHanCodeJP Heavy)
 FamilyName     (SourceHanCodeJP)
 Weight         (Heavy)
-version        (2.000)
+version        (2.010)
 Registry       (Adobe)
 Ordering       (Identity)
 Supplement     0
-AdobeCopyright (Copyright 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.)
+AdobeCopyright (Copyright 2014-2018 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.)
 Trademark      (Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.)
 FSType         0
 isFixedPitch               false
@@ -15,7 +15,7 @@ Serif                      false
 IsBoldStyle                false
 IsItalicStyle              false
 PreferOS/2TypoMetrics      false
-IsOS/2WidthWeigthSlopeOnly false
+IsOS/2WidthWeigthSlopeOnly true
 IsOS/2OBLIQUE              false
 UseOldNameID4              false
 LicenseCode                ADOBE

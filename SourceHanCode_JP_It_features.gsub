@@ -1,8 +1,15 @@
+#
+# 04-2-18
+# add ss01 and ss02
+# 
+
 feature aalt {
 	feature jp78;
 	feature jp83;
 	feature jp90;
 	feature nlck;
+	feature ss01;
+	feature ss02;
 	feature vert;
 } aalt;
 
@@ -46,6 +53,7 @@ feature ccmp {
 feature hist {
   substitute  \17660 by  \1418;
 } hist;
+
 
 feature dlig {
   substitute  \71  \74 by  \15189;
@@ -1708,6 +1716,37 @@ feature nlck {
   substitute  \7454 by  \7974;
 } nlck;
 
+feature ss01 {
+  featureNames {
+    name 3 1 0x0409 "Black and White";
+    name 3 1 0x0411 "\767D\9ED2";
+  };
+  
+  substitute \18173 by \18180;
+  substitute \18174 by \18181;
+  substitute \18175 by \18182;
+  substitute \18176 by \18183;
+  substitute \18177 by \18184;
+  substitute \18178 by \18185;
+  substitute \18179 by \18186;
+
+} ss01;
+
+feature ss02 {
+  featureNames {
+    name 3 1 0x0409 "Color Emoji";
+    name 3 1 0x0411 "\30AB\30E9\30FC\7D75\6587\5B57";
+
+  };
+  substitute \18180 by \18173;
+  substitute \18181 by \18174;
+  substitute \18182 by \18175;
+  substitute \18183 by \18176;
+  substitute \18184 by \18177;
+  substitute \18185 by \18178;
+  substitute \18186 by \18179;
+
+} ss02;
 
 feature locl {
   script latn;
