@@ -1,4 +1,4 @@
-[English](https://github.com/adobe-fonts/source-han-code-jp/blob/release) / [日本語](README-JP.md)
+[English](https://github.com/adobe-fonts/source-han-code-jp/tree/release) / [日本語](README-JP.md)
 
 # Source Han Code JP
 
