@@ -1,6 +1,10 @@
 
 *** English ***
 
+* version 2.012 2020/11/25
+
+	Removed SVG table to avoid problems with syntax highlighting on macOS 11
+
 * version 2.010 2018/04/02
 
 	U+2423 OPEN BOX '␣' has monospace advance(667units), the previous version was 1000 units.
@@ -88,6 +92,9 @@
 	First release.
 
 *** Japanese ***
+
+* version 2.012 2020/11/25
+	macOS11上のシンタックスハイライト問題の為にSVGテーブルを削除しました。
 
 * version 2.010 2018/04/02
 
