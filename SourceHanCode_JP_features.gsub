@@ -12,7 +12,6 @@ feature aalt {
 	feature jp90;
 	feature nlck;
 	feature ss01;
-	feature ss02;
 	feature vert;
 } aalt;
 
@@ -2098,22 +2097,6 @@ feature ss01 {
   substitute \18179 by \18186;
 
 } ss01;
-
-feature ss02 {
-  featureNames {
-    name 3 1 0x0409 "Color Emoji";
-    name 3 1 0x0411 "\30AB\30E9\30FC\7D75\6587\5B57";
-
-  };
-  substitute \18180 by \18173;
-  substitute \18181 by \18174;
-  substitute \18182 by \18175;
-  substitute \18183 by \18176;
-  substitute \18184 by \18177;
-  substitute \18185 by \18178;
-  substitute \18186 by \18179;
-
-} ss02;
 
 feature locl {
   script latn;
