@@ -1,10 +1,10 @@
 table head {
-  FontRevision 2.011;
+  FontRevision 2.012;
 } head;
 
 table name {
-  nameid 0 "Copyright \00A9 2014-2018 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.";
-  nameid 0 1 "Copyright \A9 2014-2018 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.";
+  nameid 0 "Copyright \00A9 2014-2020 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.";
+  nameid 0 1 "Copyright \A9 2014-2020 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.";
   nameid 7 "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.";
   nameid 7 1 "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.";
   nameid 8 "Adobe Systems Incorporated";

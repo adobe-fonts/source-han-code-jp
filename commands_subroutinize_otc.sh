@@ -18,7 +18,7 @@ do
 	## make CFF subroutinize
 	##
 	
-	if tx -cff +S +d -no_futile -a ${nf} 2>&1 ; then :
+	if tx -cff +S +d -a ${nf} 2>&1 ; then :
 	else
 		echo get CFF
 	fi

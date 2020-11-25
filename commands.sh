@@ -34,25 +34,6 @@ do
 		exit
 	fi 
 	
-	
-	if addSVGtable.py -s $svg ${nf} ; then :
-	else
-		echo Error
-		exit
-	fi
-		
-	if addSVGtable.py -s $svg ${inf} ; then :
-	else
-		echo Error
-		exit
-	fi
-		
-	#if otf2otc -t 'CFF '=0 -o ${ttc} ${nf} ${inf} ; then :
-	#else
-	#	echo Error
-	#	exit
-	#fi
-	
 	cd ../
 	
 done
