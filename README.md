@@ -1,5 +1,9 @@
 [English](https://github.com/adobe-fonts/source-han-code-jp) / [日本語](README-JP.md)
 
+# 2020-11-25 Release Notes
+
+Removed SVG table to avoid problems with syntax highlihting as reported in [Issue #17](https://github.com/adobe-fonts/source-han-code-jp/issues/17).
+
 # 2018-04-17 Release Notes
 
 Source Han Code JP Version 2.010 is released. This version supports style-linking in apps that include 'B' (Bold) and 'I' (Italic) buttons in their font menu. The sorting of the font names in some apps is also improved.
