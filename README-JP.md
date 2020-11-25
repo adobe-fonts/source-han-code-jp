@@ -1,5 +1,10 @@
 [English](https://github.com/adobe-fonts/source-han-code-jp) / [日本語](README-JP.md)
 
+# 2020-11-25 リリースノート
+
+macOS11上のシンタックスハイライト問題の為にSVGテーブルを削除しました。[Issue #17](https://github.com/adobe-fonts/source-han-code-jp/issues/17).
+
+
 ## 2018-4-17 リリースノート
 
 Source Han Code JP（源ノ角ゴシック Code JP）を version2.010に更新しました。
