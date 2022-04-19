@@ -2,7 +2,7 @@
 
 # 2020-11-25 Release Notes
 
-Removed SVG table to avoid problems with syntax highlihting as reported in [Issue #17](https://github.com/adobe-fonts/source-han-code-jp/issues/17).
+Removed SVG table to avoid problems with syntax highlighting as reported in [Issue #17](https://github.com/adobe-fonts/source-han-code-jp/issues/17).
 
 # 2018-04-17 Release Notes
 
